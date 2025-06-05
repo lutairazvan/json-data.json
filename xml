@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="42">
+        <title>Dune</title>
+        <author>
+            <first>Frank</first>
+            <last>Herbert</last>
+        </author>
+        <tags>
+            <tag>sci-fi</tag>
+            <tag>classic</tag>
+        </tags>
+        <available>true</available>
+    </book>
+    <book id="7">
+        <title>Foundation</title>
+        <author>
+            <first>Isaac</first>
+            <last>Asimov</last>
+        </author>
+        <available>false</available>
+    </book>
+    <book>
+        <title>The Hitchhiker's Guide to the Galaxy</title>
+    </book>
+    <book id="13">
+        <title>Brave New World</title>
+        <author>
+            <first>Aldous</first>
+            <last>Huxley</last>
+        </author>
+        <available>true</available>
+    </book>
+    <book id="21">
+        <title>Neuromancer</title>
+        <author>
+            <first>William</first>
+            <last>Gibson</last>
+        </author>
+        <tags>
+            <tag>cyberpunk</tag>
+        </tags>
+        <available>false</available>
+    </book>
+    <book id="34">
+        <title>Snow Crash</title>
+        <author>
+            <first>Neal</first>
+            <last>Stephenson</last>
+        </author>
+        <available>true</available>
+    </book>
+    <book id="55">
+        <title>2001: A Space Odyssey</title>
+        <author>
+            <first>Arthur</first>
+            <last>Clarke</last>
+        </author>
+        <available>true</available>
+    </book>
+</library>
