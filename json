@@ -1,0 +1,62 @@
+{
+  "id": "123456",
+  "name": "Example Message",
+  "metadata": {
+    "timestamp": "2024-01-19T12:00:00Z",
+    "source": "system-a"
+  },
+  "payload": {
+    "status": "active",
+    "count": 42,
+    "items": ["item1", "item2", "item3"],
+
+    "details": {
+      "description": "Sample message for parser configuration",
+      "priority": "high"
+    }
+  },
+  "nested": {
+    "level1": {
+      "level2": {
+        "level3": "deeply nested value",
+        "simpleNumberArray": [1, 2, 3, 4, 5],
+        "simpleStrArray": ["foo", "bar"],
+        "equalArray": [
+          { "id": 1, "text": "first" },
+          { "id": 1, "text": "first" }
+        ],
+        "mixed": [
+          { "id": 1, "name": "first" },
+          { "id": 2, "name": "second" },
+          { "id": 3, "name": "third" },
+          { "id": 4, "name": "fourth" },
+          { "id": 5, "name": "fifth" }
+
+        ]
+      },
+      "sibling": "side value"
+    }
+  },
+  "additionalFields": {
+    "boolean": true,
+    "nullValue": null,
+    "number": 123.45,
+    "date": "2024-02-01T15:30:00Z"
+  },
+  "tags": ["important", "urgent", "review"],
+  "coordinates": {
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "altitude": 0
+  },
+  "settings": {
+    "enabled": true,
+    "mode": "advanced",
+    "disabled": true,
+    "limits": {
+      "max": 1001,
+      "min": 0,
+      "threshold": 75.5
+    }
+  }
+}
