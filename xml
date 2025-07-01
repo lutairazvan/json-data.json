@@ -2,6 +2,7 @@
 <library>
     <book id="42">
         <title>Dune</title>
+        <test>test</test>
         <author>
             <first>Frank</first>
             <last>Herbert</last>
