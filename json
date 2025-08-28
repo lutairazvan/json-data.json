@@ -3,5 +3,5 @@
   "name": "Example Message 1",
   "airline": "airline name",
   "seats": 42,
-  "pilot": "pilot name",
+  "pilot": "pilot name"
 }
