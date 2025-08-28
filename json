@@ -1,7 +1,7 @@
 {
   "_id": "0",
-  "name": "Example Message 4",
+  "name": "Example Message 1",
   "airline": "airline name",
-  "seats": 42,
+  "seats": 43,
   "pilot": "pilot name"
 }
